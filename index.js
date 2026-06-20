@@ -8,8 +8,8 @@ app.use(express.json())
 
 app.use("/", (req, res)=> {
     res.json({
-        message:"server is healthy v2", 
-        status: "ok"
+        message:"server is healthy v3", 
+        status: "Github-Actions"
     })
 })
 
