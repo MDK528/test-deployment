@@ -3,7 +3,7 @@ name: Deploy Nodejs code on ExCloud
 on:
   push:
     branches:
-      -main
+      - main
 
 jobs:
   deploy:
