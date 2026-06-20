@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 app.use("/", (req, res)=> {
-    res.json("server is healthy v1")
+    res.json("server is healthy v2")
 })
 
 app.listen(PORT, ()=> {
