@@ -25,4 +25,4 @@ jobs:
             cd /home/ubuntu/test-deployment
             git pull
             pnpm install
-            pnpm start
+            pm2 restart 0
